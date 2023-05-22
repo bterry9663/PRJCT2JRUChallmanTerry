@@ -17,7 +17,7 @@ public class CreateAResumeUNfolder {
 
 		System.out.println("Please re-enter Username: ");
 		String userName = jru.next();
-		String userName1 = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\Project2JobsRUs\\src\\com\\JRU\\Users\\"
+		String userName1 = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\PRJCT2JRUChallmanTerry\\src\\src\\com\\JRU\\Users\\"
 				+ userName + "\\" + userName + "Resume.txt";
 
 		File file = new File(userName1);

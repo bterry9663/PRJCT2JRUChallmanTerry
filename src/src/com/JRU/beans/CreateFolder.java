@@ -17,7 +17,7 @@ import src.com.JRU.beans.Listing;
 public class CreateFolder {
 
 	public void createUserFolder(String userName) {
-		final String userFolder = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\Project2JobsRUs\\src\\com\\JRU\\Users\\"
+		final String userFolder = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\PRJCT2JRUChallmanTerry\\src\\src\\com\\JRU\\Users\\"
 				+ userName;
 		File folder = new File(userFolder);
 		if (!(folder.exists())) {

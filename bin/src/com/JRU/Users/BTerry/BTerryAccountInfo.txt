@@ -1,3 +1,0 @@
- User Account Information : 
-{Username=BTerry, Password=1234, userId=034276, Name=Bryan Terry, Email=Terry@yahoo.com, Phonenumber=1234567890} 
- ***************************  

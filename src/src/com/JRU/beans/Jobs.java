@@ -22,12 +22,12 @@ public class Jobs {
 
 	User user = new User();
 	CreateAccountUNfolder cAUNf = new CreateAccountUNfolder();
-	private final String userName1 = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\Project2JobsRUs\\src\\com\\JRU\\Users\\"
+	private final String userName1 = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\PRJCT2JRUChallmanTerry\\src\\src\\com\\JRU\\Users\\"
 			+ cAUNf.getUserName() + "\\" + cAUNf.getUserName() + "AccountInfo.txt";
 
-	private final String csvFile = "Project2JobsRUs\\src\\com\\JRU\\Listings\\Listings.csv";
-	private final String csvFile2 = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\Project2JobsRUs\\src\\com\\JRU\\Listings\\Listings.csv";
-	private final String txtFile2 = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\Project2JobsRUs\\src\\com\\JRU\\Users\\UsersListingApplications.txt";
+	private final String csvFile2 = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\PRJCT2JRUChallmanTerry\\src\\src\\com\\JRU\\Users\\Listings\\Listings.csv";
+	private final String txtFile2 = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\PRJCT2JRUChallmanTerry\\src\\src\\com\\JRU\\Users\\UsersListingApplications.txt";
+	//PRJCT2JRUChallmanTerry\src\src\com\JRU\Users
 	JobListing reader2 = new JobListing();
 	List<Listing> jobs2 = reader2.viewAllListings();//
 	JobListing jl = new JobListing();
@@ -154,7 +154,7 @@ public class Jobs {
 	public void saveListingToFile(Listing chosenOne) {
 		System.out.println("Please re-enter Username: ");
 		String userName = jru.next();
-		String userName1 = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\Project2JobsRUs\\src\\com\\JRU\\Users\\"
+		String userName1 = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\PRJCT2JRUChallmanTerry\\src\\src\\com\\JRU\\Users\\"
 				+ userName + "\\" + userName + "ListingInfo.txt";
 
 		File file = new File(userName1);

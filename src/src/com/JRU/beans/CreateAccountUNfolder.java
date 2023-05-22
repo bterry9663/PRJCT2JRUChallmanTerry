@@ -118,7 +118,7 @@ public class CreateAccountUNfolder {
 	}
 
 	public void saveUserAccountToFile(Map<String, String> map) {
-		userName = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\Project2JobsRUs\\src\\com\\JRU\\Users\\"
+		userName = "C:\\Users\\terry\\Documents\\workspace-spring-tool-suite-4-4.17.2.RELEASE\\PRJCT2JRUChallmanTerry\\src\\src\\com\\JRU\\Users\\"
 				+ userName + "\\" + userName + "AccountInfo.txt";
 
 		File file = new File(userName);
