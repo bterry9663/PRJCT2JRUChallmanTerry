@@ -39,6 +39,7 @@ public class updateUserInfo {
 	}
 
 	public static void updatePassword(Scanner jru) throws IOException {
+		jru.nextLine();
 		StringBuilder stringBuilder = new StringBuilder();
 		System.out.println("Current Password: ");
 		String currentPassword = jru.nextLine();
@@ -65,6 +66,7 @@ public class updateUserInfo {
 	}
 
 	public static void updateName(Scanner jru) throws IOException {
+		jru.nextLine();
 		StringBuilder stringBuilder = new StringBuilder();
 		System.out.println("Current Name: ");
 		String currentName = jru.nextLine();
@@ -91,6 +93,7 @@ public class updateUserInfo {
 	}
 
 	public static void updateEmail(Scanner jru) throws IOException {
+		jru.nextLine();
 		StringBuilder stringBuilder = new StringBuilder();
 		System.out.println("Current Email: ");
 		String currentEmail = jru.nextLine();
@@ -117,6 +120,7 @@ public class updateUserInfo {
 	}
 
 	public static void updatePhone(Scanner jru) throws IOException {
+		jru.nextLine();
 		StringBuilder stringBuilder = new StringBuilder();
 		System.out.println("Current Phone Number: ");
 		String currentPhone = jru.nextLine();
